@@ -1,6 +1,6 @@
-# fly.toml file generated for deploy1 on 2022-10-19T17:45:40-05:00
+# fly.toml file generated for bitter-darkness-1528 on 2022-10-19T21:41:58-05:00
 
-app = "deploy1"
+app = "bitter-darkness-1528"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
@@ -9,7 +9,7 @@ processes = []
   builder = "heroku/buildpacks:20"
 
 [deploy]
-  release_command = "npm run seed"  
+  release_command = "npm run seed"
 
 [env]
   PORT = "8080"
