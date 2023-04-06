@@ -1,6 +1,6 @@
-# fly.toml file generated for bitter-darkness-1528 on 2022-10-19T21:41:58-05:00
+# fly.toml file generated for fragrant-rain-7789 on 2023-03-21T19:03:52-05:00
 
-app = "bitter-darkness-1528"
+app = "fragrant-rain-7789"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
